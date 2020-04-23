@@ -3,3 +3,8 @@
 Server/bin
 Server/obj
 Server/node_modules
+UnityClient/Logs
+UnityClient/Library
+UnityClient/obj
+UnityClient/*.csproj
+UnityClient/*.sln
