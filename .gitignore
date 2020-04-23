@@ -1,0 +1,5 @@
+.DS_Store
+.idea
+Server/bin
+Server/obj
+Server/node_modules
