@@ -16,6 +16,8 @@ namespace Server {
 
 			app.UseRouting();
 
+			app.UseStaticFiles();
+
 			app.UseEndpoints(endpoints => {
 				endpoints.MapHub<ChatHub>("/chat");
 			});
