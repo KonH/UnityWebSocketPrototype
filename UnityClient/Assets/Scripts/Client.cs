@@ -20,7 +20,7 @@ public class Client : MonoBehaviour {
 
 	void Start() {
 		_ws = new SignalRLib();
-		_ws.Init("http://localhost:5000/chat/", "Send");
+		_ws.Init("https://konhit.xyz/chat_service/chat/", "Send");
 		_ws.ConnectionStarted += (sender, args) => {
 			AddText(args.Message);
 		};
